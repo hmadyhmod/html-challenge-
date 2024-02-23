@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(13, 38, 47);
+}
+
+header {
+    background-color: #f8f9fa;
+    width: 90%;
+    margin: auto;
+    color: white;
+    border: 5px solid white;
+    background-color: rgb(22, 111, 105);
+    padding-top: 5%;
+    padding-left: 10%;
+    border-color: white;
+    padding-bottom: 10%;
+}
+
+main {
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    padding: 10px ;
+}
+
+nav ul {
+    /* list-style: none; */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+.secondary-nav ul {
+    padding: 0;
+}
+
+
+.secondary-nav ul li a {
+    color: white;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+footer hr{
+    width: 90%;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    position: relative;
+    width: 72%;
+    float: left;
+    top: -250px;
+    right: -100px;
+}
+.Subscription{
+    position: relative;
+    width: 80%;
+    float: left;
+    top: -330px;
+    right: 50px;
+    width: 30%;
+}
+.OtherServices{
+    position: relative;
+    width: 80%;
+    float: left;
+    top: -330px;
+    left: 900px;
+    width: 30%;
+}
+
+button{
+    padding: 20px;
+    font-size: medium;
+}
+.vl{
+    position: relative;
+    right: 420px;
+    top: 60px;
+}

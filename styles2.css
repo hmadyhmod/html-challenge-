@@ -1,0 +1,35 @@
+body {
+    background-color: #005c57;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #09805e;
+    border-radius: 3px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
